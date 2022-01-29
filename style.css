@@ -1,14 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 .paint {
-    width: 50px;
-    height: 50px;
     border: solid;
+    display: flex;
+    flex: 1;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    width: 960px;
+    height: 960px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+button {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: aqua;
 }
