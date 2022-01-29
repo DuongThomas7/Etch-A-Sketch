@@ -7,7 +7,9 @@ for (i=0; i<16; i++){
         const color = document.createElement('div');
         color.classList.toggle("paint");
         row.appendChild(color);
+        
     }
     console.log('row');
     container.appendChild(row);
 }
+
